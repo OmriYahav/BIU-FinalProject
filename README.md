@@ -12,11 +12,11 @@ Bar Ilan University.
 
 ## Project Description
 
- brief description of the project here. Include the main goals and objectives.
+
 
 ## Installation
 
- instructions on how to install and set up the project on a local machine.
+ instructions on how to install and set up the project.
 
 ## Usage
 
@@ -26,13 +26,6 @@ Explain how to use the project, including any necessary command line arguments o
 
  provide links or instructions for accessing project documentation.
 
-## Contributing
-
-Include information about how others can contribute to the project, including guidelines or steps to follow.
-
-## License
-
-Specify the license under which the project is distributed.
 
 ## Contact Information
 
