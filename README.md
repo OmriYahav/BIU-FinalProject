@@ -1,11 +1,6 @@
 # -BIU-FinalProject
-Collaborate Repository
 
-# Project Name
-
-**Project Name**: [Insert Project Name]
-
-## Team Information
+**Project Name**: RED PROJECT 
 
 **Team Members**:
 - Omri Yahav
