@@ -1,9 +1,9 @@
 # RED PROJECT
 
 ## Team Members:
-- Omri Yahav 
-- Itzik Bibi 
-- Eliraz Oved 
+- Omri Yahav: omriyx@gmail.com 
+- Itzik Bibi: bibi.itzhak@gmail.com
+- Eliraz Oved: ovedeliraz96@gmail.com
 
 ## Institute:
 Bar Ilan University 🎓
@@ -55,8 +55,4 @@ Please provide a detailed description of your project.
    {"message": "pong"}
    ```
 
-## Contact Information
 
-- Omri Yahav: omri.yahav@example.com 
-- Itzik Bibi: itzik.bibi@example.com 
-- Eliraz Oved: eliraz.oved@example.com 
