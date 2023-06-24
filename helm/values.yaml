@@ -13,6 +13,6 @@ deployments:
   replicas: 4
 
 service:
-  type: LoadBalancer
+  type: NodePort
   port: 5005
   targetPort: 5005

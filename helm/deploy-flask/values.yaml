@@ -1,0 +1,18 @@
+app:
+  project: deploy-flask
+  tier: flask-application
+
+image:
+  repository: elirazo/pingpong-app
+  tag: latest
+
+deployments:
+  containerName: flask-app
+  containerPort: 5005
+  imagePullPolicy: Always
+  replicas: 4
+
+service:
+  type: NodePort
+  port: 5005
+  targetPort: 5005
