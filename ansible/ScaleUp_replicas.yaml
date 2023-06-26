@@ -4,5 +4,5 @@
   gather_facts: false
 
   tasks:
-    - name: Scale down deployment
+    - name: Scale Up deployment
       command: kubectl scale deployment pingpong-deployment --replicas=6
