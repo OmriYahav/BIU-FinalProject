@@ -5,4 +5,5 @@
 
   tasks:
     - name: Scale Up deployment
+      kubeconfig: '~/.kube/config'
       command: kubectl scale deployment pingpong-deployment --replicas=6
