@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Scale deployment with kubectl
+      command: kubectl scale deployment pingpong-deployment --replicas={{ replicas }}
+
