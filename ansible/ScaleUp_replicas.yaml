@@ -1,8 +1,8 @@
-- name: Scale deployment up
-  kubernetes.core.k8s_scale:
-    api_version: v1
-    kind: Deployment
-    name: ScaleUP
-    namespace: pingpong-deployment
-    replicas: 6
-  
+---
+- name: Scale Up Kubernetes deployment
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Scale down deployment
+      command: kubectl scale deployment pingpong-deployment --replicas=6
