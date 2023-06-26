@@ -1,8 +1,10 @@
-- name: Scale deployment Down
-  kubernetes.core.k8s_scale:
-    api_version: v1
-    kind: Deployment
-    name: ScaleDown
-    namespace: pingpong-deployment
-    replicas: 2
+- name: Scale Kubernetes resources
+  hosts: kubernetes
+  tasks:
+    - name: Perform scaling
+      k8s_scale:
+        name: <resource_name>
+        state: <desired_state>
+        replicas: <desired_replicas>
+
   
