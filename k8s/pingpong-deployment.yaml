@@ -23,11 +23,12 @@ kind: Service
 metadata:
   name: pingpong-service
 spec:
-  type: NodePort	
+  type: NodePort
   selector:
     app: pingpong
   ports:
     - protocol: TCP
       port: 5005
       targetPort: 5005
-  
+      nodePort: 30005  
+
