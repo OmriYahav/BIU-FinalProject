@@ -1,0 +1,17 @@
+---
+clusters:
+- cluster:
+    insecure-skip-tls-verify: true
+    server: " https://192.168.64.3:8443"
+  name: "k8s"
+contexts:
+- context:
+    cluster: "k8s"
+    user: "cluster-admin"
+  name: "k8s"
+current-context: "k8s"
+users:
+- name: "cluster-admin"
+  user:
+    password: "Superdoper5757"
+    username: "user"
