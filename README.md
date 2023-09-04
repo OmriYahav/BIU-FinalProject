@@ -47,12 +47,12 @@ Please provide a detailed description of your project.
 
 ## Usage
 
-1. The application is now running inside a Docker container on `http://localhost:5005/`.
+1. The application is now running inside a Docker container on `http://192.168.49.2:5005/ping`.
 
-2. Send a GET request to `http://localhost:5005/ping` with a JSON body containing a 'content' key and the value 'ping'. For example:
+2. Send a GET request to `http://192.168.49.2:5005/ping` with a JSON body containing a 'content' key and the value 'ping'. For example:
 
    ```bash
-   curl -X GET -H "Content-Type: application/json" -d '{"content": "ping"}' http://localhost:5005/ping
+   curl -X GET -H "Content-Type: application/json" -d '{"content": "ping"}' http://192.168.49.2:5005/ping
    ```
 
 3. The application will respond with a JSON containing a 'message' key and the value 'pong'.
