@@ -11,6 +11,12 @@ Bar Ilan University 🎓
 ## Project Description
 Please provide a detailed description of your project.
 
+## Project Architecture
+<img src="Deployment- arc.png">
+
+
+
+
 ## Installation
 
 1. Make sure you have Docker installed on your system.
