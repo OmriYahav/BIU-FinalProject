@@ -37,26 +37,22 @@ DevSecOps Final Project (RED)
 3. Change to the project directory:
 
    ```bash
-   cd -BIU-FinalProject
+   cd -BIU-FinalProject/k8s
    ```
 
-4. Build the Docker image:
+4. install docker , kubectl and minikube ,  then run the deployment:
 
    ```bash
-   docker build -t pingpong-app .
-   ```
-
-5. Run the Docker container:
-
-   ```bash
-   docker run -d -p 5005:5005 pingpong-app
+   kubectl apply -f pingpong-deployment.yaml
    ```
 
 ## Usage
 
-1. The application is now running inside a Docker container on `http://192.168.49.2:5005/ping`.
+1. The application is now running inside a k8s cluster  on `http://192.168.49.2:5005/ping`.
 
-2. Send a GET request to `http://192.168.49.2:5005/ping` with a JSON body containing a 'content' key and the value 'ping'. For example:
+2. Send a GET request to `http://192.168.49.2:5005/ping` with a JSON body containing a 'content' key and the value 'ping'.
+
+ For example and test:
 
    ```bash
    curl -X GET -H "Content-Type: application/json" -d '{"content": "ping"}' http://192.168.49.2:5005/ping
