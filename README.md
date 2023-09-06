@@ -2,7 +2,6 @@
 
 ## Team Members:
 - Omri Yahav: omriyx@gmail.com 
-- Itzik Bibi: bibi.itzhak@gmail.com
 - Eliraz Oved: ovedeliraz96@gmail.com
 
 ## Institute:
@@ -13,8 +12,6 @@ Please provide a detailed description of your project.
 
 ## Project Architecture
 <img src="Deployment- arc.png">
-
-
 
 
 ## Installation
